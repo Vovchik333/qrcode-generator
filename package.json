@@ -1,0 +1,30 @@
+{
+  "name": "qrcode-generator",
+  "version": "1.0.0",
+  "description": "Discord bot for QR-code creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node src/index.js",
+    "deploy-commands": "node src/deploy/deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vovchik333/qrcode-generator.git"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Volodymyr Potapenko",
+  "license": "ISC",
+  "homepage": "https://github.com/Vovchik333/qrcode-generator#readme",
+  "dependencies": {
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
