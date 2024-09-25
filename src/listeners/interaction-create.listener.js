@@ -1,7 +1,7 @@
 const { 
     generateQRCommand,
     helpCommand
-} = require('../commands/interaction');
+} = require('../commands');
 const { Command } = require('../enums/command.enum');
 
 const interactionCommands = new Map([
